@@ -9,7 +9,7 @@ public class Client4xxException extends RuntimeException{
         super(message);
         this.status = HttpStatus.BAD_REQUEST;
     }
-    public Client4xxException(String message, HttpStatus status) {
+    public Client4xxException(String message,HttpStatus status) {
         super(message);
         this.status = status;
     }
@@ -18,3 +18,4 @@ public class Client4xxException extends RuntimeException{
         return status;
     }
 }
+
