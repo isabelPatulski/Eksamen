@@ -22,4 +22,8 @@ public class Animal {
     int id;
     String name;
 
+    public Animal(String name) {
+        this.name = name;
+    }
 }
+
